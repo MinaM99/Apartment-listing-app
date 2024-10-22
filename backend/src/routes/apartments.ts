@@ -256,10 +256,10 @@ router.delete('/', async (req, res) => {
  *           example: 2000000
  *         size:
  *           type: string
- *           example: "50 sqm"
+ *           example: "65 m²"
  *         referenceNo:
  *           type: string
- *           example: "REF12345"
+ *           example: "54980"
  *         bedrooms:
  *           type: integer
  *           example: 1
@@ -268,13 +268,13 @@ router.delete('/', async (req, res) => {
  *           example: 1
  *         deliveryIn:
  *           type: string
- *           example: "2025-01-01"
+ *           example: "2025"
  *         compound:
  *           type: string
- *           example: "Elite Compound"
+ *           example: "Downtown Residence"
  *         saleType:
  *           type: string
- *           example: "For Sale"
+ *           example: "Developer Sale"
  *         finishing:
  *           type: string
  *           example: "Fully Finished"
